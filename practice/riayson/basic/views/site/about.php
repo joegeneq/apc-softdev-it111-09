@@ -6,11 +6,13 @@ $this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
 
+
+	<h2> About the Developers </h2>
     <p>
-        This is the About page. You may modify the following file to customize its content:
-    </p>
+	Ronald Martin Ayson<br>
+	Jhun Michael Tabudlong<br><br>
+	Software Development IT - 111 Group 09</p>
 
-    <code><?= __FILE__ ?></code>
+    
 </div>
