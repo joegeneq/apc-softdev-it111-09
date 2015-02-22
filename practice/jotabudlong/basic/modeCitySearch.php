@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace app;
 
 use Yii;
 use yii\base\Model;
@@ -8,9 +8,9 @@ use yii\data\ActiveDataProvider;
 use app\models\City;
 
 /**
- * CitySearch represents the model behind the search form about `app\models\City`.
+ * modeCitySearch represents the model behind the search form about `app\models\City`.
  */
-class CitySearch extends City
+class modeCitySearch extends City
 {
     /**
      * @inheritdoc

@@ -4,15 +4,15 @@ namespace app\controllers;
 
 use Yii;
 use app\models\City;
-use app\models\CitySearch;
+use app\modeCitySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * CItyController implements the CRUD actions for City model.
+ * CityController implements the CRUD actions for City model.
  */
-class CItyController extends Controller
+class CityController extends Controller
 {
     public function behaviors()
     {
@@ -32,7 +32,7 @@ class CItyController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new CitySearch();
+        $searchModel = new modeCitySearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [

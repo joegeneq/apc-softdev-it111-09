@@ -4,7 +4,7 @@ namespace app\controllers;
 
 use Yii;
 use app\models\Region;
-use app\models\RegionSearch;
+use app\modeRegionSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -32,7 +32,7 @@ class RegionController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new RegionSearch();
+        $searchModel = new modeRegionSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [

@@ -1,16 +1,16 @@
 <?php
 
-namespace app\models;
+namespace app;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Province;
+use app\models\Region;
 
 /**
- * ProvinceSearch represents the model behind the search form about `app\models\Province`.
+ * modeRegionSearch represents the model behind the search form about `app\models\Region`.
  */
-class ProvinceSearch extends Province
+class modeRegionSearch extends Region
 {
     /**
      * @inheritdoc
@@ -18,8 +18,8 @@ class ProvinceSearch extends Province
     public function rules()
     {
         return [
-            [['id', 'region_id'], 'integer'],
-            [['province_code', 'province_description'], 'safe'],
+            [['id'], 'integer'],
+            [['region_code', 'region_description'], 'safe'],
         ];
     }
 
@@ -41,7 +41,7 @@ class ProvinceSearch extends Province
      */
     public function search($params)
     {
-        $query = Province::find();
+        $query = Region::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -57,11 +57,10 @@ class ProvinceSearch extends Province
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'region_id' => $this->region_id,
         ]);
 
-        $query->andFilterWhere(['like', 'province_code', $this->province_code])
-            ->andFilterWhere(['like', 'province_description', $this->province_description]);
+        $query->andFilterWhere(['like', 'region_code', $this->region_code])
+            ->andFilterWhere(['like', 'region_description', $this->region_description]);
 
         return $dataProvider;
     }
