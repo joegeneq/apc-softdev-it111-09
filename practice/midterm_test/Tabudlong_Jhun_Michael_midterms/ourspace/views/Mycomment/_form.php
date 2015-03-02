@@ -13,9 +13,8 @@ use app\models\Myaddress;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'myaddress_id')->textInput() ?>
-
-   
+    <?= $form->field($model, 'myaddress_id')->dropDownList
+    (ArrayHelper::map(myaddress::find()->all(), 'id','lastname'))  ?>
 
     <?= $form->field($model, 'author')->textInput(['maxlength' => 255]) ?>
 
