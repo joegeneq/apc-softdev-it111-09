@@ -38,7 +38,7 @@ class Grades extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'grade_desc' => 'Grade Desc',
+            'grade_desc' => 'Grade Description',
         ];
     }
 }
