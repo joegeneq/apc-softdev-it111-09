@@ -44,8 +44,8 @@ class Parents extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'parents_fname' => 'Parents Fname',
-            'parents_lname' => 'Parents Lname',
+            'parents_fname' => 'Parents First Name',
+            'parents_lname' => 'Parents Last Name',
             'parents_address' => 'Parents Address',
             'parents_contact' => 'Parents Contact',
             'parents_remarks' => 'Parents Remarks',
