@@ -45,8 +45,8 @@ class Student extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'student_fname' => 'Student Fname',
-            'student_lname' => 'Student Lname',
+            'student_fname' => 'Student First Name',
+            'student_lname' => 'Student Last Name',
             'student_section' => 'Student Section',
             'student_address' => 'Student Address',
             'parents_id' => 'Parents ID',
