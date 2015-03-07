@@ -45,7 +45,7 @@ class Subjects extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'subject_name' => 'Subject Name',
-            'subject_desc' => 'Subject Desc',
+            'subject_desc' => 'Subject Description',
             'subject_remarks' => 'Subject Remarks',
             'grades_id' => 'Grades ID',
             'adviser_id' => 'Adviser ID',
