@@ -45,13 +45,13 @@ class Adviser extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'adviser_fname' => 'Adviser Fname',
-            'adviser_lname' => 'Adviser Lname',
+            'adviser_fname' => 'Adviser Firt Name',
+            'adviser_lname' => 'Adviser Last Name',
             'adviser_address' => 'Adviser Address',
             'adviser_contact' => 'Adviser Contact',
-            'adviser_uname' => 'Adviser Uname',
+            'adviser_uname' => 'Adviser Username',
             'adviser_password' => 'Adviser Password',
-            'adviser_emailadd' => 'Adviser Emailadd',
+            'adviser_emailadd' => 'Adviser Email Address',
         ];
     }
 }
