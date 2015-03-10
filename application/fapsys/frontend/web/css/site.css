@@ -4,6 +4,19 @@ body {
     background-color: lightblue;
 }
 
+/* Design for Main Page (index.php frontend) */ 
+
+
+
+p#register
+{
+font-style: italic; 
+font-size: 14px;
+
+
+}
+
+
 .wrap {
     min-height: 100%;
     height: auto;
