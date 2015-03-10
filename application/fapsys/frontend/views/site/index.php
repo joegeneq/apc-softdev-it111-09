@@ -5,14 +5,16 @@ $this->title = 'My Yii Application';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Welcome to our Assistance Program!</h1>
 
-        <p class="lead">Fulbright Science High School Assistance Program</p>
+ <?php /* Source Code for Main Page (frontend) --> */?>
 
-        <p><a class="btn btn-lg btn-success" href="http://localhost/fapsys/frontend/web/index.php?r=student%2Fcreate">Go to our Student Registration Page</a></p>
+        <p id="WelcomeHeading">Welcome to<p>
+        <h2>Fulbright Science High School Assistance Program</h2>
+        <p id="Register">New here? Please Register Below</p>
+
+        <p><a class="btn btn-lg btn-success" href="http://localhost/fapsys/frontend/web/index.php?r=student%2Fcreate">Register</a></p>
     </div>
 
-   
         </div>
 
     </div>
