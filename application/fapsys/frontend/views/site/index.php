@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'My Yii Application';
+$this->title = 'Welcome To Fulbright Science High School Assistance Program';
 ?>
 <div class="site-index">
 
@@ -8,7 +8,7 @@ $this->title = 'My Yii Application';
 
  <?php /* Source Code for Main Page (frontend) --> */?>
 
-        <p id="WelcomeHeading">Welcome to<p>
+        <p id="WelcomeHeading">Welcome!<p>
         <h2>Fulbright Science High School Assistance Program</h2>
         <p id="Register">New here? Please Register Below</p>
 
