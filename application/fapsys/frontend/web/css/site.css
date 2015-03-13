@@ -7,12 +7,17 @@ body {
 /* Design for Main Page (index.php frontend) */ 
 
 
+p#WelcomeHeading
+{
+font-style: bold;
+font-size:60px;
 
-p#register
+}
+
+p#Register
 {
 font-style: italic; 
 font-size: 14px;
-
 
 }
 
