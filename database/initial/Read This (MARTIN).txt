@@ -1,0 +1,7 @@
+1. Check mo yung mga relationships.. dagdagan mo or bawasan..
+
+2. Ung sa Registrar tingnan mo kung may ibang possible pang relation..
+
+3. Tapos kung tama ba ung DATATYPE na nilagay ko dun sa ACCOUNT.. ung ACCOUNT_TYPE dun.??
+
+4. Gawa na mo na rin ng mga CRUD AND MODELS..
