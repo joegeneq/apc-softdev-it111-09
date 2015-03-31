@@ -3,6 +3,17 @@ body {
     height: 100%;
 }
 
+p#WelcomeHeading
+{
+font-style: bold;
+font-size:60px;
+
+}
+
+p#Register
+{
+font-style: italic; 
+font-size: 14px;
 .wrap {
     min-height: 100%;
     height: auto;
