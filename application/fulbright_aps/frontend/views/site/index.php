@@ -13,11 +13,17 @@ $this->title = 'Fulbright Science School System';
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com"></a></p>
     </div>
 
+ 
     <div class="body-content">
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <p id="OurVision">Our visions for our learners</p>
+                <p id="Vision">Vision</p>
+                <p> Responding to the growing demand for quality education and the need of the present
+                    time to make youth empowered learners, FULBRIGHT SCIENCE SCHOOL envisions learners 
+                    equipped with adequate knowledge and skills and have maintained intellectual social
+                    curiosity to become effective agents of social transformations. </p>
 
 
 
