@@ -3,6 +3,7 @@ body {
     height: 100%;
 }
 
+/*Heading */ 
 p#WelcomeHeading
 {
 font-style: bold;
@@ -16,12 +17,12 @@ font-style: italic;
 font-size: 14px;
 }
 
+/*Body (Vision) Part */
 p#Vision
 {
 font-style: italic;
 font-size: 20px;
 }
-
 
 p#OurVision
 {
@@ -29,6 +30,7 @@ font-style: bold;
 font-size: 30px;
 }
 
+/*Body (Mission) Part */
 p#Mission
 {
 font-style: italic;
@@ -39,6 +41,19 @@ p#WhyEnroll
 {
 font-style: bold;
 font-size: 30px;
+}
+
+/* Body (Requirements) Part */
+p#WhatItTakes
+{
+font-style: bold;
+font-size: 30px;
+}
+
+p#Information
+{
+font-style: italic;
+font-size: 20px;
 }
 .wrap {
     min-height: 100%;
