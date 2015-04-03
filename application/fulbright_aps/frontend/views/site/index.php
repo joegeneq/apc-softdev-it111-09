@@ -6,16 +6,18 @@ $this->title = 'Fulbright Science School System';
 
     <div class="jumbotron">
 
+<!--Edit for heading part --> 
        <p id="WelcomeHeading">Welcome!<p>
         <h2>Fulbright Science High School Assistance Program</h2>
         <p id="Register">New here? Please Register Below</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com"></a></p>
+        <p><a class="btn btn-lg btn-success" href=""></a></p>
     </div>
 
- 
+
     <div class="body-content">
 
+<!--Edit for Body(Vision) Part--> 
         <div class="row">
             <div class="col-lg-4">
                 <p id="OurVision">Our visions for our learners</p>
@@ -29,6 +31,8 @@ $this->title = 'Fulbright Science School System';
 
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
             </div>
+
+<!--Edit for Body(Mission) Part-->            
             <div class="col-lg-4">
                 <p id="WhyEnroll">Why enroll at Fulbright Science School?</p>
 				<p id="Mission">Mission </p>
@@ -44,6 +48,7 @@ $this->title = 'Fulbright Science School System';
                 <p><a class="btn btn-default" href=""> &raquo;</a></p>
             </div>
             <div class="col-lg-4">
+<!--Edit for Body(Part 3) Part-->
                 <h2>Heading</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
