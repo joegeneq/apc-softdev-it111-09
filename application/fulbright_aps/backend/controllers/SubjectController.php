@@ -1,18 +1,18 @@
 <?php
 
-namespace frontend\controllers;
+namespace backend\controllers;
 
 use Yii;
-use app\models\Parents;
-use app\models\ParentsSearch;
+use app\models\Subject;
+use app\models\SubjectSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * ParentsController implements the CRUD actions for Parents model.
+ * SubjectController implements the CRUD actions for Subject model.
  */
-class ParentsController extends Controller
+class SubjectController extends Controller
 {
     public function behaviors()
     {
@@ -27,12 +27,12 @@ class ParentsController extends Controller
     }
 
     /**
-     * Lists all Parents models.
+     * Lists all Subject models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new ParentsSearch();
+        $searchModel = new SubjectSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -42,7 +42,7 @@ class ParentsController extends Controller
     }
 
     /**
-     * Displays a single Parents model.
+     * Displays a single Subject model.
      * @param integer $id
      * @return mixed
      */
@@ -54,13 +54,13 @@ class ParentsController extends Controller
     }
 
     /**
-     * Creates a new Parents model.
+     * Creates a new Subject model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Parents();
+        $model = new Subject();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -72,7 +72,7 @@ class ParentsController extends Controller
     }
 
     /**
-     * Updates an existing Parents model.
+     * Updates an existing Subject model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -91,7 +91,7 @@ class ParentsController extends Controller
     }
 
     /**
-     * Deletes an existing Parents model.
+     * Deletes an existing Subject model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -104,15 +104,15 @@ class ParentsController extends Controller
     }
 
     /**
-     * Finds the Parents model based on its primary key value.
+     * Finds the Subject model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Parents the loaded model
+     * @return Subject the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Parents::findOne($id)) !== null) {
+        if (($model = Subject::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
