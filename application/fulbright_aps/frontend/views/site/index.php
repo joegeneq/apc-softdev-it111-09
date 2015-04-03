@@ -6,16 +6,17 @@ $this->title = 'Fulbright Science School System';
 
     <div class="jumbotron">
 
+
 <!--Edit for heading part --> 
        <p id="WelcomeHeading">Welcome!<p>
-        <h2>Fulbright Science High School Assistance Program</h2>
+        <h2 id="FullbrightHeading">Fulbright Science High School Assistance Program</h2>
         <p id="Register">New here? Please Register Below</p>
 
         <p><a class="btn btn-lg btn-success" href=""></a></p>
     </div>
 
 
-    <div class="body-content">
+    <div class="body-content"> 
 
 <!--Edit for Body(Vision) Part--> 
         <div class="row">
