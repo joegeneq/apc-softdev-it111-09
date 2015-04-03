@@ -8,14 +8,23 @@ p#WelcomeHeading
 {
 font-style: bold;
 font-size:60px;
-
+color: white;
 }
+
+h2#FullbrightHeading
+{
+color: white;
+}
+
 
 p#Register
 {
 font-style: italic; 
 font-size: 14px;
+color: white;
 }
+
+
 
 /*Body (Vision) Part */
 p#Vision
@@ -64,18 +73,19 @@ font-size: 20px;
 
 .wrap > .container {
     padding: 70px 15px 20px;
+	
 }
 
 .footer {
     height: 60px;
-    background-color: #f5f5f5;
+    background-color: #006699;
     border-top: 1px solid #ddd;
     padding-top: 20px;
 }
 
 .jumbotron {
-    text-align: center;
-    background-color: transparent;
+    text-align: left;
+    background-color: #006699;
 }
 
 .jumbotron .btn {
