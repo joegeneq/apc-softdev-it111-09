@@ -53,7 +53,7 @@ $this->title = 'Fulbright Science School System';
                 <p id="Information"> Transferee? Incoming freshmen? Or returning student?
 				<p id="SchoolRequirements">We're now accepting new applicants. Click the button to see the requirements. </p>
 
-                <p><a class="btn btn-default" href="fontend\views\site\requirements.php>">School Requirements&raquo;</a></p>
+                <p><a class="btn btn-default" href="/site/requirements.php>">School Requirements&raquo;</a></p>
             </div>
         </div>
 
