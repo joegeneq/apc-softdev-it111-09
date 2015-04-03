@@ -13,6 +13,15 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+        'db'=>[
+            'class'=>'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=fullbright_aps',
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8'           
+
+        ],
+
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
