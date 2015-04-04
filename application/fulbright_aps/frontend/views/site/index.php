@@ -12,7 +12,7 @@ $this->title = 'Fulbright Science School System';
         <h2 id="FullbrightHeading">Fulbright Science High School Assistance Program</h2>
         <p id="Register">New here? Please Register Below</p>
 
-        <p><a class="btn btn-lg btn-success" href=""></a></p>
+        <p><a class="btn btn-lg btn-success" href="http://localhost/fullbright_aps/frontend/web/index.php?r=site%2Fsignup">Sign Up!</a></p>
     </div>
 
 
