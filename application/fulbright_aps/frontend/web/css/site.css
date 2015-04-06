@@ -3,53 +3,19 @@ body {
     height: 100%;
 }
 
-/*Heading */ 
-p#WelcomeHeading
-{
-font-style: bold;
-font-size:60px;
-color: white;
-}
-
-h2#FullbrightHeading
-{
-color: white;
-}
-
-
-p#Register
-{
-font-style: italic; 
-font-size: 14px;
-color: white;
-}
-
-
 
 /*Body (Vision) Part */
 p#Vision
 {
-font-style: italic;
-font-size: 20px;
-}
-
-p#OurVision
-{
-font-style: bold;
-font-size: 30px;
+font-size: 14px;
+color:black;
 }
 
 /*Body (Mission) Part */
 p#Mission
 {
-font-style: italic;
-font-size: 20px;
-}
-
-p#WhyEnroll
-{
-font-style: bold;
-font-size: 30px;
+font-size: 14px;
+color:white;
 }
 
 /* Body (Requirements) Part */
