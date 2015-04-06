@@ -74,8 +74,9 @@
                     <!-- End first slide -->
                     <!-- Start second slide -->
                     <div class="da-slide">
-                        <h4>See the Latest News<br>
-                        for Fulbright Science School! </h4>
+                        <h4>Welcome to the Online Grading System<br>
+                    		for Fulbright Science School!<br>
+                    		(Exclusive for Grade1 - Grade10 students only) </h4>
                       	
                     	
                         <a href="#" class="da-link button">Read more</a>
