@@ -19,12 +19,12 @@ $this->title = 'Fulbright Science School/Backend Admin';
             <div class="col-lg-4">
                 
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">&raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Grading System &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">&raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">CRUD &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 
