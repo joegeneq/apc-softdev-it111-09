@@ -645,7 +645,7 @@
                 <div class="container">
                     <div class="title">
                         <h1>Contact Us</h1>
-                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                        <p>We're Located Here!</p>
                     </div>
                 </div>
                 <div class="map-wrapper">
@@ -688,7 +688,8 @@
                 </div>
                 <div class="container">
                     <div class="span9 center contact-info">
-                        <p>Guadalupe, Makati City</p>
+                        <p>1515 Anastacio Street, Guadalupe</p>
+                        <p>Nuevo Makati Metro Manila</p>
                         <p>Talk to our teachers!</p>
                         <p class="info-mail">iammartinayson@gmail.com</p>
                         
