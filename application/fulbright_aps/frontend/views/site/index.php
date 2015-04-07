@@ -131,8 +131,8 @@
                             <div class="circle-border zoom-in">
                                 <img class="img-circle" src="images/Service1.png" alt="service 1">
                             </div>
-                            <h3>Modern Design</h3>
-                            <p>We Create Modern And Clean Theme For Your Business Company.</p>
+                            <h3>Enrollment Procedures</h3>
+                            <p>Click for more information.</p>
                         </div>
                     </div>
                     <div class="span4">
@@ -140,8 +140,8 @@
                             <div class="circle-border zoom-in">
                                 <img class="img-circle" src="images/Service2.png" alt="service 2" />
                             </div>
-                            <h3>Powerfull Theme</h3>
-                            <p>We Create Modern And Powerful Theme With Lots Animation And Features</p>
+                            <h3>School Requirements</h3>
+                            <p>Learn more about what you need and when you need it. </p>
                         </div>
                     </div>
                     <div class="span4">
@@ -162,8 +162,8 @@
             <div class="triangle"></div>
             <div class="container">
                 <div class=" title">
-                    <h1>Have You Seen our Works?</h1>
-                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                    <h1>Have You Seen our School?</h1>
+                    <p></p>
                 </div>
                 <ul class="nav nav-pills">
                     <li class="filter" data-filter="all">
