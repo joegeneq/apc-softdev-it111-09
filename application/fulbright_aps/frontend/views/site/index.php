@@ -473,172 +473,52 @@
                     <div class="row">
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"I've worked too hard and too long to let anything stand in the way of my goals. I will not let my teammates down and I will not let myself down."</p>
+                                <p>"Our teachers would guide us in achieving our goal, and help us in every way possible, 
+                                and help us discover new things, see things in different point of views."</p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client1.png" class="centered" alt="client 1">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <img src="images/Student01.jpg" class="centered" alt="client 1">
+                                    <strong>Marjit Simbal
+                                        <small>Fulbright Science School Alumni</small>
                                     </strong>
                                 </div>
                             </div>
                         </div>
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"In motivating people, you've got to engage their minds and their hearts. I motivate people, I hope, by example - and perhaps by excitement, by having productive ideas to make others feel involved."</p>
+                                <p>"My teachers always motivates me, help me in my studies. They're not teaching me to remember, they're training me to understand so I would learn."</p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client2.png" class="centered" alt="client 2">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <img src="images/Student02.jpg" class="centered" alt="client 2">
+                                    <strong>Totoy Brown
+                                        <small>Grade 8 Student - Fulbright Science School</small>
                                     </strong>
                                 </div>
                             </div>
                         </div>
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing."</p>
+                                <p>"I'm always determined and inspired to study, because of the subjects offerred. There are things that you would be 
+                                fascinated to learn more about."</p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client3.png" class="centered" alt="client 3">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <img src="images/Student03.jpg" class="centered" alt="client 3">
+                                    <strong>Andrew San Juan
+                                        <small>Grade 10 Student - Fulbright Science School</small>
                                     </strong>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <p class="testimonial-text">
-                        "Perfection is Achieved Not When There Is Nothing More to Add, But When There Is Nothing Left to Take Away"
+                        "School's Testimony"
                     </p>
                 </div>
             </div>
         </div>
-        <div class="section third-section">
-            <div class="container centered">
-                <div class="sub-section">
-                    <div class="title clearfix">
-                        <div class="pull-left">
-                            <h3>Our Clients</h3>
-                        </div>
-                        <ul class="client-nav pull-right">
-                            <li id="client-prev"></li>
-                            <li id="client-next"></li>
-                        </ul>
-                    </div>
-                    <ul class="row client-slider" id="clint-slider">
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo01.png" alt="client logo 1">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo02.png" alt="client logo 2">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo03.png" alt="client logo 3">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo04.png" alt="client logo 4">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo05.png" alt="client logo 5">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo02.png" alt="client logo 6">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo04.png" alt="client logo 7">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Price section start -->
-        <div id="price" class="section secondary-section">
-            <div class="container">
-                <div class="title">
-                    <h1>Price</h1>
-                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
-                </div>
-                <div class="price-table row-fluid">
-                    <div class="span4 price-column">
-                        <h3>Basic</h3>
-                        <ul class="list">
-                            <li class="price">$19,99</li>
-                            <li><strong>Free</strong> Setup</li>
-                            <li><strong>24/7</strong> Support</li>
-                            <li><strong>5 GB</strong> File Storage</li>
-                        </ul>
-                        <a href="#" class="button button-ps">BUY</a>
-                    </div>
-                    <div class="span4 price-column">
-                        <h3>Pro</h3>
-                        <ul class="list">
-                            <li class="price">$39,99</li>
-                            <li><strong>Free</strong> Setup</li>
-                            <li><strong>24/7</strong> Support</li>
-                            <li><strong>25 GB</strong> File Storage</li>
-                        </ul>
-                        <a href="#" class="button button-ps">BUY</a>
-                    </div>
-                    <div class="span4 price-column">
-                        <h3>Premium</h3>
-                        <ul class="list">
-                            <li class="price">$79,99</li>
-                            <li><strong>Free</strong> Setup</li>
-                            <li><strong>24/7</strong> Support</li>
-                            <li><strong>50 GB</strong> File Storage</li>
-                        </ul>
-                        <a href="#" class="button button-ps">BUY</a>
-                    </div>
-                </div>
-                <div class="centered">
-                    <p class="price-text">We Offer Custom Plans. Contact Us For More Info.</p>
-                    <a href="#contact" class="button">Contact Us</a>
-                </div>
-            </div>
-        </div>
-        <!-- Price section end -->
-        <!-- Newsletter section start -->
-        <div class="section third-section">
-            <div class="container newsletter">
-                <div class="sub-section">
-                    <div class="title clearfix">
-                        <div class="pull-left">
-                            <h3>Newsletter</h3>
-                        </div>
-                    </div>
-                </div>
-                <div id="success-subscribe" class="alert alert-success invisible">
-                    <strong>Well done!</strong>You successfully subscribet to our newsletter.</div>
-                <div class="row-fluid">
-                    <div class="span5">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    </div>
-                    <div class="span7">
-                        <form class="inline-form">
-                            <input type="email" name="email" id="nlmail" class="span8" placeholder="Enter your email" required />
-                            <button id="subscribe" class="button button-sp">Subscribe</button>
-                        </form>
-                        <div id="err-subscribe" class="error centered">Please provide valid email address.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Newsletter section end -->
+        
+        
+        
         <!-- Contact section start -->
         <div id="contact" class="contact">
             <div class="section secondary-section">
@@ -653,7 +533,7 @@
                     <div class="container">
                         <div class="row-fluid">
                             <div class="span5 contact-form centered">
-                                <h3>Say Hello</h3>
+                                <h3>Our teachers would like to here from you.</h3>
                                 <div id="successSend" class="alert alert-success invisible">
                                     <strong>Well done!</strong>Your message has been sent.</div>
                                 <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
@@ -673,7 +553,7 @@
                                     <div class="control-group">
                                         <div class="controls">
                                             <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."></textarea>
-                                            <div class="error left-align" id="err-comment">Please enter your comment.</div>
+                                            <div class="error left-align" id="err-comment">Please enter your Message.</div>
                                         </div>
                                     </div>
                                     <div class="control-group">
