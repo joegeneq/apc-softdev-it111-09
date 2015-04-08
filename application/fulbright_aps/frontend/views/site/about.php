@@ -1,10 +1,4 @@
-<?php
-use yii\helpers\Html;
 
-/* @var $this yii\web\View */
-$this->title = 'About';
-$this->params['breadcrumbs'][] = $this->title;
-?>
 
 <htmL>
 <head>
@@ -45,7 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
                 
                     <div class="span4" id="Center">
-                        <div class="thumbnail">
+                        <div class="thumbnail" >
                             <img src="images/TheFaculty.jpg" alt="The Faculty Teachers">
                             <h3>Teachers</h3>
                             <ul class="social">
@@ -65,7 +59,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                     </a>
                                 </li>
                             </ul>
-                            <div class="mask">
+                            <div class="mask" align="center">
                                 <h2>Teachers</h2>
                                 
                             </div>
