@@ -76,6 +76,7 @@
                         <p>Nuevo Makati Metro Manila</p>
                         <p>Talk to our teachers!</p>
                         <p class="info-mail">iammartinayson@gmail.com</p>
+                        <p class="info-mail">tabudlongj@gmail.com</p>
                         
                         <div class="title">
                             <h3>Visit our Social Sites</h3>
