@@ -36,7 +36,15 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-    <div class="span4" id="Center">
+    <div class="section primary-section" id="about">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class="title">
+                    <h1>The Fulbright Science School Teachers</h1>
+                  
+                </div>
+                
+                    <div class="span4" id="Center">
                         <div class="thumbnail">
                             <img src="images/TheFaculty.jpg" alt="The Faculty Teachers">
                             <h3>Teachers</h3>
