@@ -405,54 +405,7 @@
         </div>
         <!-- Portfolio section end -->
 
-        <!-- About us section start -->
-        <div class="section primary-section" id="about">
-            <div class="triangle"></div>
-            <div class="container">
-                <div class="title">
-                    <h1>The Fulbright Science School Teachers</h1>
-                  
-                </div>
-                
-                    <div class="span4" id="Center">
-                        <div class="thumbnail">
-                            <img src="images/TheFaculty.jpg" alt="The Faculty Teachers">
-                            <h3>Teachers</h3>
-                            <ul class="social">
-                                <li>
-                                    <a href="">
-                                        <span class="icon-facebook-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-twitter-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-linkedin-circled"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="mask">
-                                <h2>Teachers</h2>
-                                
-                            </div>
-                        </div>
-                    
-                    </div>
-                 
-                    
-                </div>
-                <div class="about-text centered">
-                    <h3>About Us</h3>
-                    <p>Honor our teachers who are dedicated and passionate in teaching the students of 
-                                Fulbright Science School and guiding them in discovering new things and becoming
-                                more agents of transformation.</p>
-                </div>
-                
-        <!-- About us section end -->
+        
         <div class="section secondary-section">
             <div class="triangle"></div>
             <div class="container centered">
