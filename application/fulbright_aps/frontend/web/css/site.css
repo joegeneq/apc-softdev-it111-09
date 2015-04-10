@@ -4,6 +4,12 @@ body {
 }
 
 
+/*Link Designs */
+a#link
+{
+ color:white;   
+}
+
 /*Body (Vision) Part */
 p#Vision
 {
