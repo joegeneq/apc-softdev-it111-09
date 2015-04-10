@@ -49,15 +49,17 @@ font-size: 20px;
 }
 
 .footer {
+    font-family:'Roboto', sans-serif;
     height: 60px;
-    background-color: #006699;
+    background-color: #DAA520;
     border-top: 1px solid #ddd;
     padding-top: 20px;
 }
 
 .jumbotron {
     text-align: left;
-    background-color: #006699;
+    background-color: black;
+
 }
 
 .jumbotron .btn {
