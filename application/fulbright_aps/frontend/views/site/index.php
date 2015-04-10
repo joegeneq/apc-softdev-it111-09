@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--
- * A Design by GraphBerry
- * Author: GraphBerry
- * Author URL: http://graphberry.com
- * License: http://graphberry.com/pages/license
--->
+
 <html lang="en">
     
     <head>
@@ -68,7 +63,7 @@
                     equipped with adequate knowledge and skills and have maintained intellectual social
                     curiosity to become effective agents of social transformations.</p>
                         <div class="da-img">
-                            <img src="images/Slider01.png" alt="image01" width="320">
+                           
                         </div>
                     </div>
                     <!-- End first slide -->
@@ -79,9 +74,9 @@
                     		(Exclusive for Grade1 - Grade10 students only) </h4>
                       	
                     	
-                        <a href="#" class="da-link button">Read more</a>
+                        <a href="?r=site/about" class="da-link button">Read more</a>
                         <div class="da-img">
-                            <img src="images/Slider02.png" width="320" alt="image02">
+                           
                         </div>
                     </div>
                     <!-- End second slide -->
@@ -92,7 +87,7 @@
                         <p>Transferee? Incoming freshmen? Or returning student?
                         We're now accepting new applicants. Click the button to see the requirements.</p>
 
-                        <a href="#" class="da-link button">Read more</a>
+                        <a href="frontend\views\site\about.php" class="da-link button">About Us</a>
                         <div class="da-img">
                             <img src="images/Slider03.png" width="320" alt="image03">
                         </div>
