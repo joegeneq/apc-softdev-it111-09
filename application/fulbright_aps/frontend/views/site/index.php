@@ -410,7 +410,7 @@
             <div class="triangle"></div>
             <div class="container centered">
                 <p class="large-text">Want to view your grades? A parent who wants to view their child's grade?</p>
-                <a href="#" class="button">Login</a>
+                <a href="frontend\web\" class="button">Login</a>
             </div>
         </div>
         <!-- Client section start -->
