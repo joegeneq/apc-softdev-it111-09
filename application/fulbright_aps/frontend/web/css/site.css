@@ -3,7 +3,10 @@ body {
     height: 100%;
 }
 
-
+p#address
+{
+    color:black;
+}
 /*Link Designs */
 a#link
 {

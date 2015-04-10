@@ -25,7 +25,7 @@
         <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
         <link rel="shortcut icon" href="images/ico/favicon.ico">
 
-</head>head>
+</head>
 <body>
 
 
