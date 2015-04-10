@@ -74,7 +74,7 @@
                     		(Exclusive for Grade1 - Grade10 students only) </h4>
                       	
                     	
-                        <a href="?r=site/about" class="da-link button">Read more</a>
+                        <a href="?r=site/login" class="da-link button">Login</a>
                         <div class="da-img">
                            
                         </div>
@@ -87,9 +87,9 @@
                         <p>Transferee? Incoming freshmen? Or returning student?
                         We're now accepting new applicants. Click the button to see the requirements.</p>
 
-                        <a href="frontend\views\site\about.php" class="da-link button">About Us</a>
+                        <a href="?r=site/enrollment" class="da-link button">How to Enroll</a>
                         <div class="da-img">
-                            <img src="images/Slider03.png" width="320" alt="image03">
+                            
                         </div>
                     </div>
                     <!-- Start third slide -->
@@ -127,7 +127,8 @@
                                 <img class="img-circle" src="images/Service1.png" alt="service 1">
                             </div>
                             <h3>Enrollment Procedures</h3>
-                            <p>Click for more information.</p>
+                            <a href="?r=site/enrollment"  id="link">Click for more information.</a>
+
                         </div>
                     </div>
                     <div class="span4">
@@ -143,9 +144,11 @@
                         <div class="centered service">
                             <div class="circle-border zoom-in">
                                 <img class="img-circle" src="images/Service3.png" alt="service 3">
+
                             </div>
                             <h3>The School</h3>
-                            <p>This about Fulbright Science School</p>
+                            <a href="?r=site/about" id="link">About the School</a>
+
                         </div>
                     </div>
                 </div>
