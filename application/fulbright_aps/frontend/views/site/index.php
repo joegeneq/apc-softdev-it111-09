@@ -401,18 +401,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio section end -->
-
         
-        <div class="section secondary-section">
-            <div class="triangle"></div>
-            <div class="container centered">
-                <p class="large-text">Want to view your grades? A parent who wants to view their child's grade?</p>
-                <a href="?r=site/login" class="button">Login</a>
-            </div>
-        </div>
-        <!-- Client section start -->
-        <!-- Client section start -->
+        
         <div id="clients">
             <div class="section primary-section">
                 <div class="triangle"></div>
@@ -441,7 +431,7 @@
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <img src="images/Student02.jpg" class="centered" alt="client 2">
-                                    <strong>Totoy Brown
+                                    <strong>Gary Bee
                                         <small>Grade 8 Student - Fulbright Science School</small>
                                     </strong>
                                 </div>
