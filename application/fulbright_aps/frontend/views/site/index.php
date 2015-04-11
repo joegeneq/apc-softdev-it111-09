@@ -441,7 +441,7 @@
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <img src="images/Student02.jpg" class="centered" alt="client 2">
-                                    <strong>Totoy Brown
+                                    <strong>David Santos
                                         <small>Grade 8 Student - Fulbright Science School</small>
                                     </strong>
                                 </div>
