@@ -35,7 +35,9 @@
                 <div class="map-wrapper">
                     <div class="map-canvas" id="map-canvas">Loading map...</div>
                     <div class="container">
-                        <div class="row-fluid">
+                        <div class="row-fluid centered">
+
+
                             <div class="span5 contact-form centered">
                                 <h3>Our teachers would like to here from you.</h3>
                                 <div id="successSend" class="alert alert-success invisible">
@@ -71,7 +73,7 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="span9 center contact-info">
+                    <div class="span9 center contact-info" align="right">
                         <p>1515 Anastacio Street, Guadalupe</p>
                         <p>Nuevo Makati Metro Manila</p>
                         <p>Talk to our teachers!</p>
