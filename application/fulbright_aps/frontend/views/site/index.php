@@ -147,7 +147,7 @@
 
                             </div>
                             <h3>The School</h3>
-                            <a href="?r=site/about" id="link">About the School</a>
+                            <a href="?r=site/about" id="link">Click to view about the School</a>
 
                         </div>
                     </div>
@@ -408,7 +408,7 @@
             <div class="triangle"></div>
             <div class="container centered">
                 <p class="large-text">Want to view your grades? A parent who wants to view their child's grade?</p>
-                <a href="frontend\web\" class="button">Login</a>
+                <a href="?r=site/login" class="button">Login</a>
             </div>
         </div>
         <!-- Client section start -->
