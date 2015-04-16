@@ -21,13 +21,11 @@ $this->title = 'Fulbright Science School/Backend Admin';
 
 
      <!-- Section for Uploading and Editing of Gallery -->
-     <?= Html::a('Edit Pictures for Gallery', ['site/'], ['class'=>'btn btn-success']) ?>
+     <?= Html::a('Edit Pictures for Gallery', ['gallery/index'], ['class'=>'btn btn-success']) ?>
 
 
 
-     <!-- Section for Editing and Adding of Comments -->
-     <?= Html::a('Edit Comments for Testimonials', ['site/'], ['class'=>'btn btn-success']) ?>
-
+  
 
      
     </div>
