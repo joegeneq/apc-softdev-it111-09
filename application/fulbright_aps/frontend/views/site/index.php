@@ -1,3 +1,7 @@
+<?php
+use backend\models\GallerySearch;
+
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -163,309 +167,67 @@
                     <h1>Have you seen Fulbright Science School?</h1>
                     <p>Here are some photos of our school facilities and what we have in store for you.</p>
                 </div>
-                <ul class="nav nav-pills">
-                    <li class="filter" data-filter="all">
-                        <a href="#noAction">All</a>
-                    </li>
-                    <li class="filter" data-filter="web">
-                        <a href="#noAction">Ground Floor</a>
-                    </li>
-                    <li class="filter" data-filter="photo">
-                        <a href="#noAction">Other Floors</a>
-                    </li>
-                    
-                </ul>
+
+
                 <!-- Details for School Lobby -->
-                <div id="single-project">
-                    <div id="slidingDiv" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Lobby.jpg" alt="project 1" />
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Welcome to the School's Lobby</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span></span>Lobby - Gate</div>
-                                   		
-                                </div>
-                                <p>This is where your child will wait while their guardian or the parents
-                                	are going to fetch their child.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 1 -->
-                    <!-- Details for the School's Cafeteria -->
-                    <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/TheCafeteria.jpg" alt="project 2">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>The Cafeteria</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Food</span>The Cafeteria</div>
-                                </div>
-                                <p>The School's Cafeteria is located on the top floor, with the gym.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 2 -->
+                <?php
+                    $searchModel = new GallerySearch();
+                    $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+                    foreach ($dataProvider->models as $model) {
                     
-                    <!-- Details for School Clinic-->
-                    <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
+                    echo '<div id="single-project">
+                    <div id="slidingDiv'.$model->id.'" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Clinic.jpg" alt="project 4">
+                            <img src="'.$model->gallery_picture.'" alt="project '.$model->id.'" />
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>School's Clinic</h3>
+                                    <h3>'.$model->gallery_name.'</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Health</span>School's Clinic</div>
-                                   </div>
-                                <p>You don't have to worry if your child is sick, undergoing illness or needs to go home
-                                the school doctor will have to call the parent or guardian. The school's clinic is located
-                                on the ground floor. </p>
+                                        <span></span>'.$model->gallery_name.'</div>
+                                        
+                                </div>
+                                <p>'.$model->gallery_description.'</p>
                             </div>
                         </div>
-                    </div>
-                    <!-- End details for portfolio project 4 -->
-                    <!-- Start details for portfolio project 5 -->
-                    <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/TheFaculty.jpg" alt="project 5">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>The Faculty</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Faculty</span>Teachers</div>
-                                    
-                                </div>
-                                <p>The teachers also have their lunch break on the school's cafeteria, and the faculty room is located on the 2nd floor
-                                	of the school.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 5 -->
-                    
-                    <!-- Details for School's Main Gate -->
-                    <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/MainGate.jpg" alt="project 7">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>What's the view from the outside?</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Outside</span>The School's Main Gate</div>
-                           		</div>
-                                <p>This is the view from outside our campus. We are ensuring the safety of our students
-                                	making a better and safe atmosphere to learn and discover more.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 7 -->
-                    <!-- Details for the School's Classroom (Other floor) -->
-                    <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Classroom.jpg" alt="project 8">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Our Classrooms</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Learning Spot</span>The Classrooms</div>
-                                    
-                                       
-                                </div>
-                                <p>This is where our students learn and discover more from our teachers with different subjects.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for Classrooms -->
-                    
+                    </div>';
+                }?> 
 
 
                     <!-- Main Images for the school -->
-                    <!-- Image for the Lobby (Ground) Description -->
-                    <ul id="portfolio-grid" class="thumbnails row">
-                        <li class="span4 mix web">
+                                <ul id="portfolio-grid" class="thumbnails row">
+                <?php
+                    $searchModel = new GallerySearch();
+                    $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+                    foreach ($dataProvider->models as $model) {
+                    
+                    echo '<li class="span4 mix web">
                             <div class="thumbnail">
-                                <img src="images/Lobby.jpg" alt="project 1">
-                                <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                                <img src="'.$model->gallery_picture.'" alt="project '.$model->id.'">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv'.$model->id.'">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>School's Lobby</h3>
+                                <h3>'.$model->gallery_name.'</h3>
                                 
                                 <div class="mask"></div>
                             </div>
-                        </li>
-                        <li class="span4 mix photo">
-                            <div class="thumbnail">
-                                <img src="images/TheCafeteria.jpg" alt="project 2">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>The Cafeteria</h3>
-                               
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        
-                        <!-- Image for the Clinic (Ground) Description -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail">
-                                <img src="images/Clinic.jpg" alt="project 4">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>School's Clinic</h3>
-                                
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <!-- Image for the School's Faculty (Other Floor) -->
-                        <li class="span4 mix photo">
-                            <div class="thumbnail">
-                                <img src="images/TheFaculty.jpg" alt="project 5">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>The Faculty</h3>
-                       
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        
-                        <!-- Images for the School's Main Gate (Ground) -->
-                        <li class="span4 mix web">
-                            <div class="thumbnail">
-                                <img src="images/MainGate.jpg" alt="project 7" />
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>School's Main Gate</h3>
-                                
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix photo">
-                            <div class="thumbnail">
-                                <img src="images/Classroom.jpg" alt="project 8">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>The Classrooms</h3>
-                                
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        
+                        </li>';
+                }?>                       
                     </ul>
                 </div>
             </div>
         </div>
         
         
-        <div id="clients">
-            <div class="section primary-section">
-                <div class="triangle"></div>
-                <div class="container">
-                    <div class="title">
-                        <h1>Our Students say?</h1>
-                        <p>Here are some testimonies on what students learn at Fulbright Science School</p>
-                    </div>
-                    <div class="row">
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"Our teachers would guide us in achieving our goal, and help us in every way possible, 
-                                and help us discover new things, see things in different point of views."</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Student01.jpg" class="centered" alt="client 1">
-                                    <strong>Marjit Simbal
-                                        <small>Fulbright Science School Alumni</small>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"My teachers always motivates me, help me in my studies. They're not teaching me to remember, they're training me to understand so I would learn."</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Student02.jpg" class="centered" alt="client 2">
-<<<<<<< HEAD
-                                    <strong>Gary Bee
-=======
-                                    <strong>David Santos
->>>>>>> 8477abe5b7661ecca683426b23540f292ac26d0e
-                                        <small>Grade 8 Student - Fulbright Science School</small>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"I'm always determined and inspired to study, because of the subjects offerred. There are things that you would be 
-                                fascinated to learn more about."</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Student03.jpg" class="centered" alt="client 3">
-                                    <strong>Andrew San Juan
-                                        <small>Grade 10 Student - Fulbright Science School</small>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="testimonial-text">
-                        "School's Testimony"
-                    </p>
-                </div>
-            </div>
-        </div>
-        
-        
-        
-        
-        <!-- Footer section start -->
+       
         <div class="footer">
             <p>&copy; 2015 Fulbright Science School</p>
         </div>
