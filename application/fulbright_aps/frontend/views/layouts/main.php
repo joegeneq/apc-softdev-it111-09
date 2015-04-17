@@ -35,12 +35,12 @@ AppAsset::register($this);
             ]);
             $menuItems = [
                 ['label' => 'HOME', 'url' => ['/site/index']],
-<<<<<<< HEAD
+
                 ['label' => 'ABOUT US', 'url' => ['/site/about']],
-=======
+
                 ['label' => 'ABOUT', 'url' => ['/site/about']],
             
->>>>>>> 395e101fff8cfdc794aed3aa884bd551c09719d3
+
                 ['label' => 'CONTACT', 'url' => ['/site/contact']],
                 ['label' => 'FACILITIES', 'url' => ['/site/facilities']],
             ];
