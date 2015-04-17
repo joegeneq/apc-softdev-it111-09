@@ -32,50 +32,28 @@
                         <p>We're Located Here!</p>
                     </div>
                 </div>
-                <div class="map-wrapper">
-                    <div class="map-canvas" id="map-canvas">Loading map...</div>
-                    <div class="container">
-                        <div class="row-fluid centered">
+
+               <img src="images/FulbrightLocation.png" alt="We're Located Here">
+
+               
 
 
-                            <div class="span5 contact-form centered">
-                                <h3>Our teachers would like to here from you.</h3>
-                                <div id="successSend" class="alert alert-success invisible">
-                                    <strong>Well done!</strong>Your message has been sent.</div>
-                                <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
-                                <form id="contact-form" action="php/mail.php">
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <input class="span12" type="text" id="name" name="name" placeholder="* Your name..." />
-                                            <div class="error left-align" id="err-name">Please enter name.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <input class="span12" type="email" name="email" id="email" placeholder="* Your email..." />
-                                            <div class="error left-align" id="err-email">Please enter valid email adress.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."></textarea>
-                                            <div class="error left-align" id="err-comment">Please enter your Message.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <button id="send-mail" class="message-btn">Send message</button>
-                                        </div>
-                                    </div>
+                            
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="container">
+
+                    <div class="span9 center contact-info">
+                        <p id="address">1515 Anastacio Street, Guadalupe</p>
+                        <p id="address">Nuevo Makati Metro Manila</p>
+
                     <div class="span9 center contact-info" align="right">
                         <p>1515 Anastacio Street, Guadalupe</p>
                         <p>Nuevo Makati Metro Manila</p>
+
                         <p>Talk to our teachers!</p>
                         <p class="info-mail">iammartinayson@gmail.com</p>
                         <p class="info-mail">tabudlongj@gmail.com</p>
