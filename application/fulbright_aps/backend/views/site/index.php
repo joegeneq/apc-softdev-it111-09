@@ -24,7 +24,7 @@ $this->title = 'Fulbright Science School/Backend Admin';
      <?= Html::a('Edit Pictures for Gallery', ['gallery/index'], ['class'=>'btn btn-success']) ?>
 
 
-
+      
   
 
      
