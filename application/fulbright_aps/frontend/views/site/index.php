@@ -29,6 +29,9 @@ use backend\models\GallerySearch;
     
     <!-- Heading Part 2, Upper Left -->
     <body>
+    <?php include_once("analyticstracking.php") ?>
+
+
         <div class="navbar">
             <div class="navbar-inner">
                 <div class="container">
