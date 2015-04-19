@@ -14,6 +14,7 @@ AppAsset::register($this);
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
+<title>Fulbright Science School Assistance Program</title>
 <head>
     <meta charset="<?= Yii::$app->charset ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,9 +36,13 @@ AppAsset::register($this);
             ]);
             $menuItems = [
                 ['label' => 'HOME', 'url' => ['/site/index']],
-                ['label' => 'ABOUT', 'url' => ['/site/about']],
-            
+
+                ['label' => 'ABOUT US', 'url' => ['/site/about']],
+
+                            
+
                 ['label' => 'CONTACT', 'url' => ['/site/contact']],
+               
             ];
             if (Yii::$app->user->isGuest) {
                 

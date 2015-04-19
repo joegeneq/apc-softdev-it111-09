@@ -1,4 +1,5 @@
 <html>
+<title>Fulbright Science School Assistance Program</title>
 <head>
       <meta charset=utf-8>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +25,10 @@
         <link rel="shortcut icon" href="images/ico/favicon.ico">
 </head>
 <body>
+<?php include_once("analyticstracking.php") ?>
+
+
+
 <div id="contact" class="contact">
             <div class="section secondary-section">
                 <div class="container">
