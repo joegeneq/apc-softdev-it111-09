@@ -1,14 +1,16 @@
 <?php
 
-namespace backend\models;
+namespace frontend\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\Grade;
+use frontend\models\Grade;
+
+use common\models\User;
 
 /**
- * GradeSearch represents the model behind the search form about `backend\models\Grade`.
+ * GradeSearch represents the model behind the search form about `frontend\models\Grade`.
  */
 class GradeSearch extends Grade
 {
@@ -18,7 +20,7 @@ class GradeSearch extends Grade
     public function rules()
     {
         return [
-            ['id', 'integer'],
+            [['id'], 'integer'],
             [['grade_subject', 'user_id', 'grade_quarter_number', 'grade_date_created'], 'safe'],
             [['grade_remarks'], 'number'],
         ];
@@ -42,7 +44,11 @@ class GradeSearch extends Grade
      */
     public function search($params)
     {
-        $query = Grade::find();
+        if (Yii::$app->user->identity->type == 'Student') {
+            $query = Grade::find()->where(['user_id'=>Yii::$app->user->identity->id]);
+        } else {
+            $query = Grade::find();
+        }
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
