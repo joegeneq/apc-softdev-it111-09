@@ -117,6 +117,11 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
+public function actionGrade()
+    {
+        return $this->render('grade');
+    }
+
  public function actionFacilities()
     {
         return $this->render('facilities');

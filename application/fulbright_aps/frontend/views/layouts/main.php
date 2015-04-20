@@ -37,6 +37,8 @@ AppAsset::register($this);
             $menuItems = [
                 ['label' => 'HOME', 'url' => ['/site/index']],
 
+                ['label' => 'GRADE', 'url' => ['/site/grade']],
+
                 ['label' => 'ABOUT US', 'url' => ['/site/about']],
 
                             
