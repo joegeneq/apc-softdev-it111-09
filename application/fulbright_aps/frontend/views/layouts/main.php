@@ -37,8 +37,6 @@ AppAsset::register($this);
             $menuItems = [
                 ['label' => 'HOME', 'url' => ['/site/index']],
 
-                ['label' => 'GRADE', 'url' => ['/site/grade']],
-
                 ['label' => 'ABOUT US', 'url' => ['/site/about']],
 
                 ['label' => 'CONTACT', 'url' => ['/site/contact']],
@@ -48,11 +46,25 @@ AppAsset::register($this);
                 
                 $menuItems[] = ['label' => 'LOGIN', 'url' => ['/site/login']];
             } else {
+
+                $menuItems = [
+                    ['label' => 'HOME', 'url' => ['/site/index']],
+
+                    ['label' => 'GRADE', 'url' => ['/grade/index']],
+
+                    ['label' => 'ABOUT US', 'url' => ['/site/about']],
+
+                    ['label' => 'CONTACT', 'url' => ['/site/contact']],
+               
+                ];
+
                 $menuItems[] = [
+
                     'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
                     'url' => ['/site/logout'],
                     'linkOptions' => ['data-method' => 'post']
                 ];
+                
             }
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
