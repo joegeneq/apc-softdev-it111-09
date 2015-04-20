@@ -51,10 +51,10 @@ class Grade extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'grade_subject' => 'Grade Subject',
-            'grade_quarter_number' => 'Grade Quarter Number',
-            'grade_remarks' => 'Grade Remarks',
-            'grade_date_created' => 'Grade Date Created',
+            'grade_subject' => 'Subject',
+            'grade_quarter_number' => 'Quarter Number',
+            'grade_remarks' => 'Remarks',
+            'grade_date_created' => 'Date Created',
             'user_id' => 'Full Name',
         ];
     }
