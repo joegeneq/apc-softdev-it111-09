@@ -8,6 +8,10 @@ use Yii;
  * This is the model class for table "grade".
  *
  * @property integer $id
+ * @property integer $first_grading
+ * @property integer $second_grading
+ * @property integer $third_grading
+ * @property integer $fourth_grading
  * @property string $grade_remarks
  * @property string $grade_date_submitted
  * @property integer $student_id
@@ -33,8 +37,8 @@ class Grade extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'student_id', 'teacher_id'], 'required'],
-            [['id', 'student_id', 'teacher_id'], 'integer'],
+            [['id', 'first_grading', 'second_grading', 'third_grading', 'fourth_grading', 'student_id', 'teacher_id'], 'required'],
+            [['id', 'first_grading', 'second_grading', 'third_grading', 'fourth_grading', 'student_id', 'teacher_id'], 'integer'],
             [['grade_date_submitted'], 'safe'],
             [['grade_remarks'], 'string', 'max' => 45]
         ];
@@ -47,6 +51,10 @@ class Grade extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
+            'first_grading' => 'First Grading',
+            'second_grading' => 'Second Grading',
+            'third_grading' => 'Third Grading',
+            'fourth_grading' => 'Fourth Grading',
             'grade_remarks' => 'Grade Remarks',
             'grade_date_submitted' => 'Grade Date Submitted',
             'student_id' => 'Student ID',
