@@ -19,8 +19,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `fullbright_aps`
 --
-CREATE SCHEMA IF NOT EXISTS `fullbright_aps` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
-USE `fullbright_aps` ;
+
 -- --------------------------------------------------------
 
 --
