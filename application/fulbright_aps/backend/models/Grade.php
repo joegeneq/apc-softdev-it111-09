@@ -2,24 +2,21 @@
 
 namespace backend\models;
 
+use common\models\User;
+
 use Yii;
 
 /**
  * This is the model class for table "grade".
  *
  * @property integer $id
- * @property integer $first_grading
- * @property integer $second_grading
- * @property integer $third_grading
- * @property integer $fourth_grading
+ * @property string $grade_subject
+ * @property string $grade_quarter_number
  * @property string $grade_remarks
- * @property string $grade_date_submitted
- * @property integer $student_id
- * @property integer $teacher_id
+ * @property string $grade_date_created
+ * @property integer $user_id
  *
- * @property Student $student
- * @property Teacher $teacher
- * @property Subject[] $subjects
+ * @property User $user
  */
 class Grade extends \yii\db\ActiveRecord
 {
@@ -37,10 +34,13 @@ class Grade extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'first_grading', 'second_grading', 'third_grading', 'fourth_grading', 'student_id', 'teacher_id'], 'required'],
-            [['id', 'first_grading', 'second_grading', 'third_grading', 'fourth_grading', 'student_id', 'teacher_id'], 'integer'],
-            [['grade_date_submitted'], 'safe'],
-            [['grade_remarks'], 'string', 'max' => 45]
+            [['grade_subject', 'user_id'], 'required'],
+            [['grade_subject'], 'string'],
+            [['grade_quarter_number','grade_subject'], 'unique', 'targetAttribute' => ['user_id','grade_quarter_number','grade_subject']],
+            [['grade_remarks'], 'number','min'=>60, 'max' =>100], 
+            [['grade_date_created'], 'safe'],
+            [['user_id'], 'integer'],
+            [['grade_quarter_number'], 'string', 'max' => 45]
         ];
     }
 
@@ -51,38 +51,19 @@ class Grade extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'first_grading' => 'First Grading',
-            'second_grading' => 'Second Grading',
-            'third_grading' => 'Third Grading',
-            'fourth_grading' => 'Fourth Grading',
-            'grade_remarks' => 'Grade Remarks',
-            'grade_date_submitted' => 'Grade Date Submitted',
-            'student_id' => 'Student ID',
-            'teacher_id' => 'Teacher ID',
+            'grade_subject' => 'Subject',
+            'grade_quarter_number' => 'Quarter Number',
+            'grade_remarks' => 'Remarks',
+            'grade_date_created' => 'Date Created',
+            'user_id' => 'Full Name',
         ];
     }
 
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getStudent()
+    public function getUser()
     {
-        return $this->hasOne(Student::className(), ['id' => 'student_id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getTeacher()
-    {
-        return $this->hasOne(Teacher::className(), ['id' => 'teacher_id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getSubjects()
-    {
-        return $this->hasMany(Subject::className(), ['grade_id' => 'id']);
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 }

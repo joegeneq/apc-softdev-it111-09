@@ -36,7 +36,7 @@ class Grade extends \yii\db\ActiveRecord
         return [
             [['grade_subject', 'user_id'], 'required'],
             [['grade_subject'], 'string'],
-            [['grade_remarks'], 'number'],
+            [['grade_remarks'], 'number','min'=>60, 'max' =>100],
             [['grade_date_created'], 'safe'],
             [['grade_quarter_number','grade_subject'], 'unique', 'targetAttribute' => ['user_id','grade_quarter_number','grade_subject']],
             [['user_id'], 'integer'],
