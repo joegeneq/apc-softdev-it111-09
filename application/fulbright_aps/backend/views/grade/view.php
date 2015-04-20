@@ -29,14 +29,11 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
-            'first_grading',
-            'second_grading',
-            'third_grading',
-            'fourth_grading',
+            'grade_subject',
+            'grade_quarter_number',
             'grade_remarks',
-            'grade_date_submitted',
-            'student_id',
-            'teacher_id',
+            'grade_date_created',
+            'user_id',
         ],
     ]) ?>
 

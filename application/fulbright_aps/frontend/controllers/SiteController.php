@@ -14,6 +14,8 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use yii\web\ForbiddenHttpException;
 
+use frontend\models\Section;
+
 /**
  * Site controller
  */
@@ -173,5 +175,23 @@ public function actionGrade()
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
+    }
+
+    public function actionLists($id) {
+        $countSection = Section::find()
+                ->where(['level_id' => $id])
+                ->count();
+
+        $Section = Section::find()
+                ->where(['level_id' => $id])
+                ->all();
+
+        if ($countSection > 0) {
+            foreach ($Section as $section) {
+                echo "<option value'".$section->id."'>".$section->section_name."</option>";
+            }
+        } else {
+            echo "<option></option>";
+        }
     }
 }

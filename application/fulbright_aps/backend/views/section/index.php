@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel app\models\SectionSearch */
+/* @var $searchModel backend\models\SectionSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Sections';
@@ -27,8 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id',
             'section_name',
-            'section_description',
-            'teacher_id',
+            'level_id',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

@@ -98,4 +98,22 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+
+    // public function actionLists($id) {
+    //     $countSection = Section::find()
+    //             ->where(['level_id' => $id])
+    //             ->count();
+
+    //     $Section = Section::find()
+    //             ->where(['level_id' => $id])
+    //             ->all();
+
+    //     if ($countSection > 0) {
+    //         foreach ($Section as $section) {
+    //             echo "<option value'".$section->id."'>".$section->section_name."</option>";
+    //         }
+    //     } else {
+    //         echo "<option></option>";
+    //     }
+    // }
 }

@@ -17,21 +17,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'first_grading') ?>
+    <?= $form->field($model, 'grade_subject') ?>
 
-    <?= $form->field($model, 'second_grading') ?>
+    <?= $form->field($model, 'grade_quarter_number') ?>
 
-    <?= $form->field($model, 'third_grading') ?>
+    <?= $form->field($model, 'grade_remarks') ?>
 
-    <?= $form->field($model, 'fourth_grading') ?>
+    <?= $form->field($model, 'grade_date_created') ?>
 
-    <?php // echo $form->field($model, 'grade_remarks') ?>
-
-    <?php // echo $form->field($model, 'grade_date_submitted') ?>
-
-    <?php // echo $form->field($model, 'student_id') ?>
-
-    <?php // echo $form->field($model, 'teacher_id') ?>
+    <?php // echo $form->field($model, 'user_id') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

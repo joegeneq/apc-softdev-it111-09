@@ -34,16 +34,16 @@ use backend\models\GradeSearch;
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                      <h1>'.$model->first_grading.'</h3>
+                                      <h1>'.$model->grade_subject.'</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
-                                      <h2>'.$model->second_grading.'</h3>
+                                      <h2>'.$model->grade_quarter_number.'</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
-                                      <h3>'.$model->third_grading.'</h3>
+                                      <h3>'.$model->grade_remarks.'</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
-                                      <h4>'.$model->fourth_grading.'</h3>
+                                      <h4>'.$model->user_id.'</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
 
@@ -52,10 +52,10 @@ use backend\models\GradeSearch;
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span></span>'.$model->first_grading.'</div>
+                                        <span></span>'.$model->grade_subject.'</div>
                                         
                                 </div>
-                                <p>'.$model->first_grading.'</p>
+                                <p>'.$model->grade_subject.'</p>
                             </div>
                         </div>
                     </div>';

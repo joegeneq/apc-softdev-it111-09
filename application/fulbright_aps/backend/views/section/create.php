@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Section */
+/* @var $model backend\models\Section */
 
 $this->title = 'Create Section';
 $this->params['breadcrumbs'][] = ['label' => 'Sections', 'url' => ['index']];

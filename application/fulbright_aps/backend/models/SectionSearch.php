@@ -1,14 +1,14 @@
 <?php
 
-namespace app\models;
+namespace backend\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Section;
+use backend\models\Section;
 
 /**
- * SectionSearch represents the model behind the search form about `app\models\Section`.
+ * SectionSearch represents the model behind the search form about `backend\models\Section`.
  */
 class SectionSearch extends Section
 {
@@ -18,8 +18,8 @@ class SectionSearch extends Section
     public function rules()
     {
         return [
-            [['id', 'teacher_id'], 'integer'],
-            [['section_name', 'section_description'], 'safe'],
+            [['id', 'level_id'], 'integer'],
+            [['section_name'], 'safe'],
         ];
     }
 
@@ -57,11 +57,10 @@ class SectionSearch extends Section
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'teacher_id' => $this->teacher_id,
+            'level_id' => $this->level_id,
         ]);
 
-        $query->andFilterWhere(['like', 'section_name', $this->section_name])
-            ->andFilterWhere(['like', 'section_description', $this->section_description]);
+        $query->andFilterWhere(['like', 'section_name', $this->section_name]);
 
         return $dataProvider;
     }
