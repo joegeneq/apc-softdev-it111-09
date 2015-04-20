@@ -57,4 +57,22 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
+  '2amigos/yii2-date-picker-widget' => 
+  array (
+    'name' => '2amigos/yii2-date-picker-widget',
+    'version' => '1.0.3.0',
+    'alias' => 
+    array (
+      '@dosamigos/datepicker' => $vendorDir . '/2amigos/yii2-date-picker-widget/src',
+    ),
+  ),
+  'kop/yii2-conditional-validator' => 
+  array (
+    'name' => 'kop/yii2-conditional-validator',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@kop/y2cv' => $vendorDir . '/kop/yii2-conditional-validator',
+    ),
+  ),
 );
