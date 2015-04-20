@@ -41,8 +41,6 @@ AppAsset::register($this);
 
                 ['label' => 'ABOUT US', 'url' => ['/site/about']],
 
-                            
-
                 ['label' => 'CONTACT', 'url' => ['/site/contact']],
                
             ];

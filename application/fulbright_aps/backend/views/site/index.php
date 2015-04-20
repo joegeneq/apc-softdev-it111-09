@@ -25,7 +25,7 @@ $this->title = 'Fulbright Science School/Backend Admin';
      <?= Html::a('Edit Pictures for Gallery', ['gallery/index'], ['class'=>'btn btn-success']) ?>
 
      <!-- Section for the Grades Viewer -->
-     <?= Html::a('Edit Grades of Students', [''], ['class'=>'btn btn-success']) ?>
+     <?= Html::a('Edit Grades of Students', ['grade/index'], ['class'=>'btn btn-success']) ?>
 
      
       

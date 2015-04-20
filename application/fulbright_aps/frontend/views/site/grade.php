@@ -9,15 +9,12 @@ use backend\models\GradeSearch;
 <head>
 </head>
 
-
-
-<body>
-	
+<body>	
  <div class="section secondary-section " id="portfolio">
             <div class="triangle"></div>
             <div class="container">
                 <div class=" title">
-                    <h1>Online Grades Views</h1>
+                    <h1>Online Grade Viewer</h1>
                     <p></p>
                 </div>
 
@@ -37,9 +34,20 @@ use backend\models\GradeSearch;
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>'.$model->first_grading.'</h3>
+                                      <h1>'.$model->first_grading.'</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
+                                      <h2>'.$model->second_grading.'</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                      <h3>'.$model->third_grading.'</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                      <h4>'.$model->fourth_grading.'</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+
+
                                     </span>
                                 </div>
                                 <div class="project-info">
