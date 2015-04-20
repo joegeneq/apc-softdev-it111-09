@@ -14,6 +14,14 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id')->textInput() ?>
 
+    <?= $form->field($model, 'first_grading')->textInput() ?>
+
+    <?= $form->field($model, 'second_grading')->textInput() ?>
+
+    <?= $form->field($model, 'third_grading')->textInput() ?>
+
+    <?= $form->field($model, 'fourth_grading')->textInput() ?>
+
     <?= $form->field($model, 'grade_remarks')->textInput(['maxlength' => 45]) ?>
 
     <?= $form->field($model, 'grade_date_submitted')->textInput() ?>

@@ -18,7 +18,7 @@ class GradeSearch extends Grade
     public function rules()
     {
         return [
-            [['id', 'student_id', 'teacher_id'], 'integer'],
+            [['id', 'first_grading', 'second_grading', 'third_grading', 'fourth_grading', 'student_id', 'teacher_id'], 'integer'],
             [['grade_remarks', 'grade_date_submitted'], 'safe'],
         ];
     }
@@ -57,6 +57,10 @@ class GradeSearch extends Grade
 
         $query->andFilterWhere([
             'id' => $this->id,
+            'first_grading' => $this->first_grading,
+            'second_grading' => $this->second_grading,
+            'third_grading' => $this->third_grading,
+            'fourth_grading' => $this->fourth_grading,
             'grade_date_submitted' => $this->grade_date_submitted,
             'student_id' => $this->student_id,
             'teacher_id' => $this->teacher_id,
