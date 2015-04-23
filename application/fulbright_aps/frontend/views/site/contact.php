@@ -25,9 +25,6 @@
         <link rel="shortcut icon" href="images/ico/favicon.ico">
 </head>
 <body>
-<?php include_once("analyticstracking.php") ?>
-
-
 
 <div id="contact" class="contact">
             <div class="section secondary-section">
