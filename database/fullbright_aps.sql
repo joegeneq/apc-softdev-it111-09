@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `fullbright_aps`
 --
-
+CREATE DATABASE IF NOT EXISTS `fullbright_aps` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `fullbright_aps`;
 -- --------------------------------------------------------
 
 --
